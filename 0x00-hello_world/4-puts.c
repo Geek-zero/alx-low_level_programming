@@ -1,8 +1,7 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point: print the string in the put function
  *
  * Return: Always 0 (Success)
  */
