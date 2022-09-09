@@ -1,22 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-/*
- *  Description: Prints all single digit numbers of base 10 starting from 0.
- *
- *    * Return: Always 0.
- */
+/**
+* main - Print all single digit numbers
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
-
 {
-	int num;
+	int digit;
 
-	for (num = 0; num < 10; num++)
-	printf("%d", num);
+	for (digit = 0; digit < 10; digit++)
+	printf("%i", digit);
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
