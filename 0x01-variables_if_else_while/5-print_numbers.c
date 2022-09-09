@@ -2,23 +2,23 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * * main - Print all single digit numbers
+/**
  *
- * *
+ *  * main - Prints all single digit numbers of base 10 starting from 0.
  *
- * * Return: Always 0 (Success)
-*/
+ *    * Return: Always 0.
+ *
+ */
 
 int main(void)
+
 {
-	int digit;
+	int num;
 
-	for (digit = 0; digit < 10; digit++)
-	printf("%i", digit);
+	for (num = 0; num < 10; num++)
+	printf("%d", num);
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
-
 }
