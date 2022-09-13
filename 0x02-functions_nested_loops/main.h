@@ -1,5 +1,5 @@
-#ifndef ONAHOKECHUKWULINUS_H_
-#define ONAHOKECHUKWULINUS_H_
+#ifndef MAIN_H_
+#define MAIN_H_
 
 int _putchar(char c);
 void print_alphabet(void);
